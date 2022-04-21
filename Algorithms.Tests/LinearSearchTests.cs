@@ -27,7 +27,7 @@ public class LinearSearchTests
 
         // Assert
         // Assuming it takes 200 ms to search per person
-        searchTime.Should().Be(600);
+        searchTime.Should().Be(1600);
     }
 
     [Test]
@@ -50,6 +50,6 @@ public class LinearSearchTests
 
         // Assert
         // Assuming it takes 200 ms to search per person
-        searchTime.Should().Be(800);
+        searchTime.Should().Be(1800);
     }
 }
