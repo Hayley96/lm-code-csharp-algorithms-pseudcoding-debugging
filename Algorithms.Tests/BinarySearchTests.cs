@@ -12,15 +12,15 @@ namespace Algorithms.Tests
         {
             // Arrange
             var contacts = new List<Contact>
-        {
-            new("Aaron", "Smith", "0207123434"),
-            new("Ben", "Smith", "0207123434"),
-            new("Jane", "Smith", "0207123456"),
-            new("Mike", "Smith", "0207123456"),
-            new("Pamela", "Smith", "0207123456"),
-            new("Xander", "Smith", "0207123458"),
-            new("Zach", "Smith", "0207123458"),
-        };
+            {
+                new("Aaron", "Smith", "0207123434"),
+                new("Ben", "Smith", "0207123434"),
+                new("Jane", "Smith", "0207123456"),
+                new("Mike", "Smith", "0207123456"),
+                new("Pamela", "Smith", "0207123456"),
+                new("Xander", "Smith", "0207123458"),
+                new("Zach", "Smith", "0207123458"),
+            };
 
             // Act
             int searchTime = LinearSearch.GetSearchTimeForContact(contacts, "Xander");
@@ -35,15 +35,15 @@ namespace Algorithms.Tests
         {
             // Arrange
             var contacts = new List<Contact>
-        {
-            new("Aaron", "Smith", "0207123434"),
-            new("Ben", "Smith", "0207123434"),
-            new("Jane", "Smith", "0207123456"),
-            new("Mike", "Smith", "0207123456"),
-            new("Pamela", "Smith", "0207123456"),
-            new("Xander", "Smith", "0207123458"),
-            new("Zach", "Smith", "0207123458"),
-        };
+            {
+                new("Aaron", "Smith", "0207123434"),
+                new("Ben", "Smith", "0207123434"),
+                new("Jane", "Smith", "0207123456"),
+                new("Mike", "Smith", "0207123456"),
+                new("Pamela", "Smith", "0207123456"),
+                new("Xander", "Smith", "0207123458"),
+                new("Zach", "Smith", "0207123458"),
+            };
 
             // Act
             int searchTime = LinearSearch.GetSearchTimeForContact(contacts, "June");
@@ -54,4 +54,3 @@ namespace Algorithms.Tests
         }
     }
 }
-
