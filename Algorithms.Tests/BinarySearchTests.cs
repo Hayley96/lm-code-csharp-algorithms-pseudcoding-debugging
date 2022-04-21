@@ -15,15 +15,16 @@ namespace Algorithms.Tests
             {
                 new("Aaron", "Smith", "0207123434"),
                 new("Ben", "Smith", "0207123434"),
+                new("Ethan", "Smith", "0207123456"),
+                new("Harry", "Smith", "0207123456"),
                 new("Jane", "Smith", "0207123456"),
                 new("Mike", "Smith", "0207123456"),
                 new("Pamela", "Smith", "0207123456"),
-                new("Xander", "Smith", "0207123458"),
-                new("Zach", "Smith", "0207123458"),
+                new("Tamara", "Smith", "0207123456"),
             };
 
             // Act
-            int searchTime = LinearSearch.GetSearchTimeForContact(contacts, "Xander");
+            int searchTime = LinearSearch.GetSearchTimeForContact(contacts, "Tamara");
 
             // Assert
             // Assuming it takes 200 ms to search per person
@@ -38,11 +39,12 @@ namespace Algorithms.Tests
             {
                 new("Aaron", "Smith", "0207123434"),
                 new("Ben", "Smith", "0207123434"),
+                new("Ethan", "Smith", "0207123456"),
+                new("Harry", "Smith", "0207123456"),
                 new("Jane", "Smith", "0207123456"),
                 new("Mike", "Smith", "0207123456"),
                 new("Pamela", "Smith", "0207123456"),
-                new("Xander", "Smith", "0207123458"),
-                new("Zach", "Smith", "0207123458"),
+                new("Tamara", "Smith", "0207123456"),
             };
 
             // Act
