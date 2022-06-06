@@ -24,7 +24,7 @@ namespace Algorithms.Tests
             };
 
             // Act
-            int searchTime = LinearSearch.GetSearchTimeForContact(contacts, "Tamara");
+            int searchTime = BinarySearch.GetSearchTimeForContact(contacts, "Tamara");
 
             // Assert
             // Assuming it takes 200 ms to search per person
@@ -48,7 +48,7 @@ namespace Algorithms.Tests
             };
 
             // Act
-            int searchTime = LinearSearch.GetSearchTimeForContact(contacts, "June");
+            int searchTime = BinarySearch.GetSearchTimeForContact(contacts, "June");
 
             // Assert
             // Assuming it takes 200 ms to search per person
